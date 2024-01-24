@@ -1,0 +1,136 @@
+repo_name: luankevinferreira/akka
+report_id: 0a875a6b14c78b56a2f507f30f2b5254
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-24T00:08:47+00:00'
+requested_by: Captain1653
+provider: github
+branch: main
+detected_tools_count: 11
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/luankevinferreira/akka
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/luankevinferreira/akka
+  detection_source: Repo Metadata
+- name: Perl
+  description: Highly capable, feature-rich programming language with over 26 years
+    of development
+  website_url: http://www.perl.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1048/perl.png
+  detection_source_url: https://github.com/luankevinferreira/akka
+  detection_source: Repo Metadata
+- name: Scala
+  description: A pure-bred object-oriented language that runs on the JVM
+  website_url: http://www.scala-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1012/scala.png
+  detection_source_url: https://github.com/luankevinferreira/akka
+  detection_source: Repo Metadata
+- name: Akka
+  description: Build powerful concurrent &amp; distributed applications more easily
+  website_url: http://akka.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/1773/bxLhidly.png
+  detection_source_url: https://github.com/luankevinferreira/akka/blob/main/akka-actor-testkit-typed/src/main/resources/reference.conf
+  detection_source: akka-actor-testkit-typed/src/main/resources/reference.conf
+  last_updated_by: Patrik Nordwall
+  last_updated_on: 2018-05-15 17:38:43.000000000 Z
+- name: Jackson
+  description: A suite of data-processing tools for Java
+  website_url: https://github.com/FasterXML/jackson
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://ucarecdn.com/d8ec839d-4d66-4c08-8297-9e2be82f6b75/
+  detection_source_url: https://github.com/luankevinferreira/akka/blob/main/build.sbt
+  detection_source: build.sbt
+  last_updated_by: Johan Andrén
+  last_updated_on: 2021-06-02 15:15:18.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/luankevinferreira/akka/blob/main/build.sbt
+  detection_source: build.sbt
+  last_updated_by: Patrik Nordwall
+  last_updated_on: 2021-12-14 11:47:45.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/luankevinferreira/akka
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/luankevinferreira/akka/blob/main/.github/workflows/binary-compatibility-checks.yml
+  detection_source: ".github/workflows/binary-compatibility-checks.yml"
+  last_updated_by: Patrik Nordwall
+  last_updated_on: 2022-02-22 10:46:37.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/luankevinferreira/akka/blob/main/akka-actor-testkit-typed/src/test/resources/logback-test.xml
+  detection_source: akka-actor-testkit-typed/src/test/resources/logback-test.xml
+  last_updated_by: Patrik Nordwall
+  last_updated_on: 2019-09-17 15:26:13.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/luankevinferreira/akka
+  detection_source: Repo Metadata
